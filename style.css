@@ -1,0 +1,632 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  header{
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    #navbar{
+      width: 100%;
+      height: 100px;
+      background-image: url(images/code.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-bottom: 4px solid salmon;
+      display: flex;
+      padding-top: 20px;
+
+      #logoSection{
+        width: 200px;
+        height: inherit;
+        display: flex;
+        #logoImage{
+          img{
+            width: 90px;
+            height: inherit;
+            cursor: pointer;
+          }
+        }
+        #logoTitle{
+          #title1{
+            position: relative;
+            left: -20px;
+            bottom: -5px;
+            p{
+              color: white;
+              font-size: larger;
+              font-weight: bold;
+              cursor: pointer;
+            }
+          }
+          #title2{
+            position: relative;
+            bottom: -33px;
+            left: -10px;
+            p{
+              color: white;
+              font-size: larger;
+              font-weight: bold;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      #titleSection{
+        margin: auto;
+        #titleTop{
+          margin-bottom: 10px;
+          text-align: center;
+          h1{
+            color: white;
+            cursor: pointer;
+            font-family: "Dancing Script", cursive;
+          }
+        }
+        #linkSection{
+          margin-top: 5px;
+          a{
+            color: white;
+            text-decoration: none;
+            align-items: center;
+            margin: 5px;
+            font-size: larger;
+            font-weight: bold;
+          }
+        }
+      }
+      #seachButton{
+        align-items: center;
+        height: 50x;
+        width: 35px;
+        padding: 5px;
+        img{
+          color: white;
+          height: 40px;
+          margin-top: 30px;
+        }
+      }
+      #HambergerMenu{
+        width: 50px;
+        height: auto;
+        padding: 20px;
+        #button{
+          width: inherit;
+          color: white;
+          font-size: xx-large;
+          font-weight: bolder;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+
+  #sideNav{
+    /*background-color: rgba(0, 26, 255, 0.493);*/
+    background-color: rgba(0, 60, 255, 0.288);
+    padding-top: 40px;
+    position: fixed;
+    right: 0px;
+    top: 105px;
+    height: 100%;
+    overflow-y: scroll;
+    .title{
+      color: aliceblue;
+      padding: 10px;
+    }
+    hr{
+      background-color: black;
+      height: 5px;
+      border: none;
+      margin-top: 2px;
+      margin-bottom: 10px;
+    }
+    .links{
+      a{
+        display: block;
+        text-decoration: none;
+        color: aliceblue;
+        text-align: center;
+        padding: 10px;
+      }
+    }
+    .footerS{
+      p{
+        color: white;
+        padding: 4px;
+      }
+      a{
+        color: white;
+        display: block;
+        margin: 5px;
+      }
+    }
+  }
+
+
+
+  main{
+    background-image: url(images/code2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+    width: 100%;
+    #spaceHolder{
+      display: flex;
+      button{
+        padding: 10px;
+        background-color: rgba(0, 255, 255, 0.575);
+        color: black;
+        margin: 5px;
+        border-radius: 10px;
+        border: 2px solid blue;
+      }
+    }
+    hr{
+      border: 4px solid salmon;
+      width: 100%;
+    }
+    #loginLanding{
+      display: flex;
+      margin-top: 10px;
+      #landingText{
+        width: 40%;
+        height: 400px;
+        background-color: rgba(0, 255, 255, 0.199);
+        border-radius: 20px;
+        padding: 10px;
+        h1{
+          color: white;
+        }
+        hr{
+          border: 2px solid greenyellow;
+          background-color: greenyellow;
+          margin: 2px;
+        }
+        p{
+          color: white;
+          padding: 5px;
+          line-height: 20px;
+          font-weight: bold;
+          a{
+            color: red;
+          }
+        }
+      }
+      #imageLandingtext{
+        width: 40%;
+        position: relative;
+        bottom: -250px;
+        left: -100px;
+        border-radius: 100%;
+        img{
+          width: inherit;
+          border-radius: 100%;
+          border: 2px solid red;
+        }
+        #VerificationTick{
+          width: 50px;
+          position: relative;
+          left: -40px;
+          top: -50px;
+        }
+      }
+    }
+    #closingLandingPage{
+      display: block;
+      background-color: rgba(0, 0, 255, 0.363);
+      width: 100%;
+      height: 300px;
+      margin-top: 20px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      border-top: 2px solid green;
+    }
+  }
+
+
+
+
+
+
+  footer{
+    height: 20%;
+    #footerDiv{
+      background-image: url(images/code5.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      #firstDiv{
+        background-color: inherit;
+        padding: 20px;
+        width: 20%;
+        #Image{
+          width: 200px;
+          border-radius: 100px;
+          background-size: contain;
+          margin-top: 20px;
+          img{
+            width: inherit;
+            border-radius: 100px;
+            border: 2px solid greenyellow;
+            
+          }
+        }
+        #verification{
+          width: 50px;
+          position: relative;
+          top: -50px;
+          right: -150px;
+          img{
+            width: inherit;
+          }
+        }
+      }
+      #secondDiv{
+        background-color: inherit;
+        width: 50%;
+        padding: 20px;
+        .quickLinks{
+          font-size: xx-large;
+        }
+        .quickLinksLinks{
+          line-height: 40px;
+          background-color: rgba(0, 0, 0, 0.418);
+          border-radius: 10px;
+          a{
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+          }
+          p{
+            color: red;
+            text-decoration: wavy;
+          }
+        }
+      }
+      #thirdDiv{
+        background-color: inherit;
+        width: 30%;
+        padding: 20px;
+      }
+    }
+    #fixedPosition{
+      padding: 10px;
+      text-align: center;
+      p{
+        font-size: xx-large;
+        a{
+          text-decoration: none;
+          color: black;
+          img{
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  body{
+    width: 100%;
+    height: 100%;
+    header{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+      #navbar{
+        width: 100%;
+        height: 100px;
+        background-image: url(images/code.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: 4px solid salmon;
+        display: flex;
+  
+        #logoSection{
+          width: 200px;
+          height: inherit;
+          display: flex;
+          #logoImage{
+            img{
+              width: 90px;
+              height: inherit;
+              cursor: pointer;
+            }
+          }
+          #logoTitle{
+            #title1{
+              position: relative;
+              left: -20px;
+              bottom: -5px;
+              p{
+                color: white;
+                font-size: larger;
+                font-weight: bold;
+                cursor: pointer;
+              }
+            }
+            #title2{
+              position: relative;
+              bottom: -33px;
+              left: -10px;
+              p{
+                color: white;
+                font-size: larger;
+                font-weight: bold;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+        #titleSection{
+          margin: auto;
+          #titleTop{
+            margin-bottom: 10px;
+            text-align: center;
+            h1{
+              color: white;
+              cursor: pointer;
+              font-family: "Dancing Script", cursive;
+            }
+          }
+          #linkSection{
+            margin-top: 5px;
+            display: none;
+            a{
+              color: white;
+              text-decoration: none;
+              align-items: center;
+              margin: 5px;
+              font-size: larger;
+              font-weight: bold;
+            }
+          }
+        }
+        #seachButton{
+          align-items: center;
+          height: 50x;
+          width: 35px;
+          padding: 5px;
+          display: none;
+          img{
+            color: white;
+            height: 40px;
+            margin-top: 30px;
+          }
+        }
+        #HambergerMenu{
+          width: 50px;
+          height: auto;
+          padding: 20px;
+          #button{
+            width: inherit;
+            color: white;
+            font-size: xx-large;
+            font-weight: bolder;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  
+  
+    #sideNav{
+      /*background-color: rgba(0, 26, 255, 0.493);*/
+      background-color: rgb(0, 0, 0);
+      padding-top: 40px;
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      display: none;
+      .title{
+        color: aliceblue;
+        padding: 10px;
+      }
+      hr{
+        background-color: black;
+        height: 5px;
+        border: none;
+        margin-top: 2px;
+        margin-bottom: 10px;
+      }
+      .links{
+        a{
+          display: block;
+          text-decoration: none;
+          color: aliceblue;
+          text-align: center;
+          padding: 10px;
+        }
+      }
+      .footerS{
+        p{
+          color: white;
+          padding: 4px;
+        }
+        a{
+          color: white;
+          display: block;
+          margin: 5px;
+        }
+      }
+    }
+  
+  
+  
+    main{
+      background-image: url(images/code2.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      display: block;
+      #spaceHolder{
+        display: block;
+        width: 100%;
+        button{
+          padding: 10px;
+          background-color: rgba(0, 255, 255, 0.575);
+          color: black;
+          margin: 5px;
+          border-radius: 10px;
+          border: 2px solid blue;
+        }
+      }
+      hr{
+        border: 2px solid salmon;
+        width: 100%;
+      }
+      #loginLanding{
+        display: block;
+        margin-top: 10px;
+        #landingText{
+          width: 90%;
+          margin-left: 2%;
+          height: auto;
+          background-color: rgba(0, 255, 255, 0.199);
+          border-radius: 20px;
+          padding: 10px;
+          display: flex;
+          margin-bottom: 10px;
+          h1{
+            color: white;
+          }
+          hr{
+            border: 2px solid greenyellow;
+            background-color: greenyellow;
+            width: 2px;
+            margin: 2px;
+          }
+          p{
+            color: white;
+            padding: 5px;
+            a{
+              color: red;
+            }
+          }
+        }
+        #imageLandingtext{
+          display: block;
+          width: 100%;
+          position: static;
+          border-radius: 100%;
+          img{
+            width: 200px;
+            margin-left: 20px;
+            border-radius: 100%;
+            border: 2px solid red;
+          }
+          #VerificationTick{
+            display: none;
+            position: relative;
+            top: -100px;
+            left: 250px;
+            img{
+              width: inherit;
+            }
+          }
+        }
+      }
+      #closingLandingPage{
+        display: block;
+        background-color: rgba(0, 0, 255, 0.363);
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-top: 2px solid green;
+      }
+    }
+  
+  
+  
+  
+  
+  
+    footer{
+      height: 20%;
+      #footerDiv{
+        background-image: url(images/code5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        #firstDiv{
+          background-color: inherit;
+          padding: 20px;
+          width: 90%;
+          display: block;
+          #Image{
+            width: 200px;
+            border-radius: 100px;
+            background-size: contain;
+            margin-top: 20px;
+            img{
+              width: inherit;
+              border-radius: 100px;
+              border: 2px solid greenyellow;
+              
+            }
+          }
+          #verification{
+            width: 50px;
+            position: relative;
+            top: -50px;
+            right: -150px;
+            img{
+              width: inherit;
+            }
+          }
+        }
+        #secondDiv{
+          background-color: inherit;
+          width: 90%;
+          padding: 20px;
+          display: block;
+          .quickLinks{
+            font-size: xx-large;
+          }
+          .quickLinksLinks{
+            line-height: 40px;
+            background-color: rgba(0, 0, 0, 0.418);
+            border-radius: 10px;
+            a{
+              color: white;
+              text-decoration: none;
+              margin: 10px;
+            }
+            p{
+              color: red;
+              text-decoration: wavy;
+            }
+          }
+        }
+        #thirdDiv{
+          background-color: inherit;
+          width: 90%;
+          padding: 20px;
+          display: block;
+        }
+      }
+      #fixedPosition{
+        padding: 10px;
+        text-align: center;
+        p{
+          font-size: xx-large;
+          a{
+            text-decoration: none;
+            color: black;
+            img{
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
